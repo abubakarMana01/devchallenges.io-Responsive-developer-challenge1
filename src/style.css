@@ -8,10 +8,9 @@
 
 body {
 	background-color: #ffffff;
-	height: 100vh;
 	width: 100vw;
 	font-family: Space Mono;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .header {
@@ -67,15 +66,12 @@ button {
 
 footer p {
 	font-family: 'Montserrat';
-	position: absolute;
-	bottom: 1rem;
 	color: #bdbdbd;
-	left: 50%;
 	text-align: center;
 	width: 100%;
-	transform: translateX(-50%);
 	font-size: 0.75rem;
 	font-weight: 700;
+	margin-top: 11rem;
 }
 
 @media (min-width: 700px) {
